@@ -6,11 +6,11 @@ export const Algue = [
     ProductionMethane:20,
     ProductionMethaneText: "20%",
     impactLait:99,
-    type: "Impact sur lait",
-    PrixText: "Hausse prix",
+    type: "Qualité lait",
+    PrixText: "Prix en euros/10kg",
     Nom: "Algue",
     Photo: "https://cdn.pixabay.com/photo/2018/03/19/20/20/wheat-3241114_1280.jpg",
-    Prix: 1.023,
+    Prix: 15.023,
     information:
     "Encore au stade de la recherche et du développement, ces produits montrent des résultats prometteurs. L’algue rouge Asparagopsis taxiformis serait censée réduire les émissions de méthane du bétail de plus de 80 %, même utilisée en petite quantité…  Une étude publiée dans la revue scientifique Journal of Cleaner Production en juin 2020",
     },
@@ -20,7 +20,7 @@ export const Algue = [
         impactLait:1,
         type: "Impact sur lait",
         PrixText: "Hausse prix",
-        Prix: 0.25,
+        Prix: 5.023,
         typeDeGaz:"Reduction",
         ProductionMethane:80,
         }
