@@ -16,3 +16,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.graph-box {
+  border: 1px black solid;
+  justify-content: center;
+  display: flex;
+}

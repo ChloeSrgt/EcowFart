@@ -15,12 +15,18 @@ function App() {
         <img alt="logo" src={'src/assets/Logo-rond.png'} />
         <p>Salut ça farte ?!</p>
         <button type='button' onClick={() => setCereales(Ble)}> Lin </button>
-        
       </div>
-      <div style={{width: 300}}>
-    <Donuts Database={cereales}/>
+    <div className="graph-box">
+      <div className="graph" style={{width: 300}}>
     <Donuts Database={cereales}/>
       </div>
+    <div className="graph" style={{width: 300}}>
+    <Donuts Database={cereales}/>
+    </div>
+    <div className="graph" style={{width: 300}}>
+    <Donuts Database={cereales}/>
+    </div>
+    </div>
     </div>
   );
 }
