@@ -9,13 +9,13 @@ const Home = () => {
     return (
        <> <div>
             <Slideshow />
-            <Intro />
-        </div>
-        <div className="container">
+            <div className="container">
         <button className='compteurGaz'><CompteurGaz /></button>
         <div className="blocText">
           <TempsPasse />
         </div>
+        </div>
+            <Intro />
         </div>
         </>
     );
