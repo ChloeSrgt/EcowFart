@@ -1,0 +1,39 @@
+.compteurGaz {
+    border: solid 1px black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+
+.compteurGaz {
+    box-shadow: 0 0 0 1px #555a86 inset;
+    transition: ease-in 0.7s;
+}
+
+.compteurGaz:hover {
+    box-shadow: 0 300px 0 1px #2196F3 inset;
+    display: block;
+}
+
+.container:hover .blocText {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width:8rem;
+}
+
+.blocText{
+    display: none;
+    background:#2196F3; 
+    color:#fff; 
+    padding:7px 10px; 
+    border-radius:3px; 
+    width:350px;
+    height: 150px;
+    font-size: small;
+}
