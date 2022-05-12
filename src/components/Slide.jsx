@@ -8,7 +8,7 @@ import 'react-slideshow-image/dist/styles.css'
 
 
 const proprietes = {
-    duration: 5000,
+    duration: 2500,
     transitionDuration: 500,
     infinite: true,
     indicators: true,
