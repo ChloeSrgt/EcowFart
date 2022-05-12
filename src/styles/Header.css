@@ -15,9 +15,13 @@ header {
 
 .header-logo {
 width: 9vw;
-margin: 0.8vw;
+margin: 20px 0px 8px 32px;
 }
 
 .header-title {
 color: var(--camel);
+}
+
+.pictomail {
+  width: 4vw;
 }

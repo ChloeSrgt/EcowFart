@@ -7,18 +7,21 @@ import mail from "../assets/picto-contact.png";
 
 const Header = () => {
     return (
-        <header>
-        <div className="header">
+      <div>
+      <header>
+            <div className="header">
         <Link
         to="/"> <img className="header-logo" src={logo} alt="logo" />
         </Link>
         <Link
-        to="/"><h1 className="header-title">E'COWFART</h1></Link>
-          <div className="pictos">
-          <img src={mail} alt="picto mail"/>
-        </div>
+        to="/"><h1 className="header-title">E'COWFART</h1>
+        </Link>
+        <Link
+         to="/contact"> <img className="pictomail" src={mail} alt="picto mail"/>
+          </Link>
         </div>
         </header>
+        </div>
     );
 };
 
