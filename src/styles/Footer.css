@@ -10,9 +10,11 @@ footer {
   .pictos {
     display: flex;
     width: 15vw;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 7px;
+    gap: 20px;
 }
 
 .pictos img {
-    width: 3.5vw;
+    width: 2.5vw;
 }

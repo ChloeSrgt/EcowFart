@@ -15,7 +15,9 @@ const Header = () => {
         <Link
         to="/"><h1 className="header-title">E'COWFART</h1>
         </Link>
-          <img src={mail} alt="picto mail"/>
+        <Link
+         to="/contact"> <img className="pictomail" src={mail} alt="picto mail"/>
+          </Link>
         </div>
         </header>
     );
