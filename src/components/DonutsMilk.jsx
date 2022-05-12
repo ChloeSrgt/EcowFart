@@ -2,22 +2,22 @@ import { Doughnut } from 'react-chartjs-2';
 import {Chart as ChartJS} from "chart.js/auto";
 import {useEffect, useState} from 'react';
 
-function Donuts({Database}) {
+function DonutsMilk({Database}) {
 
     const [userData, setUserData] = useState({
-        labels:  Database.map((data) => data.typeDeGaz),
+        labels:  Database.map((data) => data.type),
         datasets: [{
           label: "Users Gained",
-          data: Database.map((data) => data.ProductionMethane),
-          backgroundColor: ["red","green"],}]
+          data: Database.map((data) => data.impactLait),
+          backgroundColor: ["green","red"],}]
         })
 
       useEffect(() => { setUserData({
-        labels: Database.map((data) => data.typeDeGaz),
+        labels: Database.map((data) => data.type),
         datasets: [{
           label: "Users Gained",
-          data: Database.map((data) => data.ProductionMethane),
-          backgroundColor: ["red","green"],}]
+          data: Database.map((data) => data.impactLait),
+          backgroundColor: ["green","red"],}]
         })}, [Database])
       
 
@@ -31,7 +31,7 @@ function Donuts({Database}) {
                  var fontSize = (height / 160).toFixed(2);
                  ctx.font = fontSize + "em sans-serif";
                  ctx.textBaseline = "top";
-                 var text = Database.map((data) => data.ProductionMethaneText),
+                 var text = Database.map((data) => data.impactLaitText),
                  textX = Math.round((width - ctx.measureText(text).width) / 2),
                  textY = height / 2;
                  ctx.fillText(text, textX, textY);
@@ -47,7 +47,7 @@ function Donuts({Database}) {
                   var fontSize = (height / 160).toFixed(2);
                   ctx.font = fontSize + "em sans-serif";
                   ctx.textBaseline = "top";
-                  var text = Database.map((data) => data.ProductionMethaneText),
+                  var text = Database.map((data) => data.impactLaitText),
                   textX = Math.round((width - ctx.measureText(text).width) / 2),
                   textY = height / 2;
                   ctx.fillText(text, textX, textY);
@@ -64,4 +64,4 @@ function Donuts({Database}) {
         
 }
 
-export default Donuts
+export default DonutsMilk

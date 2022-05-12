@@ -6,41 +6,26 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Detail from "./pages/Detail";
 import "./App.css";
-import Donuts from './components/DonutsMethane';
-import  {Ble}  from './BDD/DataBle';
-import {Lin} from './BDD/DataLin';
-import { useState } from 'react';
+
 
 function App() {
-  const [cereales,setCereales]=useState(Lin);
   return (
+    
     <div className="App">
-      <Header />
+    
       <header className="App-header">
+      <Header />
       </header>
       <div>
-        <img alt="logo" src={'src/assets/Logo-rond.png'} />
         <p>Salut ça farte ?!</p>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/search/:idProduct" element={<Detail />} />
-      </Routes>
-        <button type='button' onClick={() => setCereales(Ble)}> Lin </button>
+      </Routes>  
       </div>
-    <div className="graph-box">
-      <div className="graph" style={{width: 300}}>
-    <Donuts Database={cereales}/>
+      <div>
       </div>
-    <div className="graph" style={{width: 300}}>
-    <Donuts Database={cereales}/>
-    </div>
-    <div className="graph" style={{width: 300}}>
-    <Donuts Database={cereales}/>
-    </div>
-    </div>
-    <div className="App">
-    </div>
   
 <Footer />
     </div>
