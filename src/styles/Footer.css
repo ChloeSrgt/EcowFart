@@ -4,4 +4,15 @@ footer {
     display: flex;
     font-size: calc(10px + 2vmin);
     color: white;
+    justify-content: space-around;
   }
+
+  .pictos {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+}
+
+.pictos img {
+    width: 3.5vw;
+}
