@@ -25,13 +25,13 @@ function App() {
         <button type='button' onClick={() => setCereales(Ble)}> Lin </button>
       </div>
     <div className="graph-box">
-      <div className="graph" style={{width: 300}}>
+      <div className="graph" style={{width: 260}}>
     <Donuts Database={cereales}/>
       </div>
-    <div className="graph" style={{width: 300}}>
+    <div className="graph" style={{width: 260}}>
     <Donuts Database={cereales}/>
     </div>
-    <div className="graph" style={{width: 300}}>
+    <div className="graph" style={{width: 260}}>
     <Donuts Database={cereales}/>
     </div>
     </div>
