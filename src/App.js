@@ -1,4 +1,6 @@
 import './App.css';
+import Donuts from './components/DonutsMethane';
+import  {Ble}  from './BDD/DataBle';
 
 function App() {
   return (
@@ -8,6 +10,9 @@ function App() {
       <div>
         <img alt="logo" src={'src/assets/Logo-rond.png'} />
         <p>Salut ça farte ?!</p>
+      </div>
+      <div style={{width: 300}}>
+    <Donuts Database={Ble}/>
       </div>
     </div>
   );
