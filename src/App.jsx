@@ -12,10 +12,7 @@ function App() {
   return (
     
     <div className="App">
-    
-      <header className="App-header">
       <Header />
-      </header>
       <div>
         
       <Routes>
@@ -23,8 +20,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/search/:idProduct" element={<Detail />} />
       </Routes>  
-      </div>
-      <div>
       </div>
   
 <Footer />

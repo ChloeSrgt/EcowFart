@@ -9,27 +9,19 @@ header {
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto Slab', serif;
-
     font-size: calc(10px + 2vmin);
-
     color: white;
   }
 
 .header-logo {
 width: 9vw;
-margin: 0.8vw;
+margin: 20px 0px 8px 32px;
 }
 
 .header-title {
 color: var(--camel);
 }
 
-.pictos {
-    display: flex;
-    width: 15vw;
-    justify-content: space-between;
-}
-
-.pictos img {
-    width: 3.5vw;
+.pictomail {
+  width: 4vw;
 }
