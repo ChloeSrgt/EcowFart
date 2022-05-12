@@ -18,7 +18,6 @@
 }
 
 .graph-box {
-  border: 1px black solid;
   justify-content: center;
   display: flex;
 }
