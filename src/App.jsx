@@ -17,7 +17,7 @@ function App() {
       <Header />
       </header>
       <div>
-        <p>Salut ça farte ?!</p>
+        
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
