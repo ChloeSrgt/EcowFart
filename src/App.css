@@ -19,6 +19,7 @@
 .graph-box {
   justify-content: center;
   display: flex;
+  margin: 30px 0px 60px 0px
 }
 
 a {
