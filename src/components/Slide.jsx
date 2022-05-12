@@ -8,8 +8,8 @@ import 'react-slideshow-image/dist/styles.css'
 
 
 const proprietes = {
-    duration: 2500,
-    transitionDuration: 500,
+    duration: 250000,
+    transitionDuration: 15000,
     infinite: true,
     indicators: true,
     arrows: true
