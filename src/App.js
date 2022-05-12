@@ -1,12 +1,11 @@
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Header />
       <div>
-        <img alt="logo" src={'src/assets/Logo-rond.png'} />
         <p>Salut ça farte ?!</p>
       </div>
     </div>
