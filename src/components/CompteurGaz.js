@@ -1,15 +1,21 @@
 /* eslint-disable import/no-unresolved */
 import React, { useState, useEffect } from "react";
-import "./style/countdown.css";
 
-function CountDown() {
-  const [ count, setCount ] = useState("")
+
+export default function CompteurGaz() {
+  const [ grammes, setGrammes ] = useState(0)
+  const [ kilos, setKilos ] = useState(0)
   useEffect(() => {
+    let quantiteParSeconde = 8.333;
     let timer = null;
-    if (count > 0) {
+    if (grammes >= 0) {
       timer = setTimeout(() => {
-        setCount(count + 1);
-      }, 1000);
+        setGrammes(grammes + quantiteParSeconde);
+        if (grammes >= 1000) {
+          setKilos(kilos + 1)
+          setGrammes(0)
+        }
+      }, 100);
     }
     return () => {
       clearTimeout(timer);
@@ -17,10 +23,9 @@ function CountDown() {
   });
 
   return (
-    <div className={count <= 3 ? "timeUp" && "pulse" : "countdown"}>
-      <h1>{count}</h1>
+    <div>
+      <p>{Math.trunc(kilos)}.{Math.trunc(grammes)}Kg</p>
     </div>
   );
 }
 
-export default CountDown;

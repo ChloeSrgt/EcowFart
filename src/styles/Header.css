@@ -1,0 +1,35 @@
+header {
+    background-color: #557329;
+}
+
+.header {
+    min-height: 10vh;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+
+    font-size: calc(10px + 2vmin);
+
+    color: white;
+  }
+
+.header-logo {
+width: 9vw;
+margin: 0.8vw;
+}
+
+.header-title {
+color: var(--camel);
+}
+
+.pictos {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+}
+
+.pictos img {
+    width: 3.5vw;
+}

@@ -17,3 +17,7 @@
   color: white;
 }
 
+.graph-box {
+  justify-content: center;
+  display: flex;
+}
