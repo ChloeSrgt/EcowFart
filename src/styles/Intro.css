@@ -1,0 +1,12 @@
+.title {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 45px 10px 4px 10px;
+  }
+  
+  .infotext {
+    font-size: 18px;
+    margin: 0px 26px 40px 26px;
+    text-align: center;
+  }
