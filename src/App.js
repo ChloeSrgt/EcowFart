@@ -1,13 +1,12 @@
 import './App.css';
 import CompteurGaz from './components/CompteurGaz';
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Header />
       <div>
-        <img alt="logo" src={'src/assets/Logo-rond.png'} />
         <CompteurGaz />
         <p>Salut ça farte ?!</p>
       </div>
