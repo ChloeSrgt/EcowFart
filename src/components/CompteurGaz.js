@@ -15,7 +15,7 @@ export default function CompteurGaz() {
           setKilos(kilos + 1)
           setGrammes(0)
         }
-      }, 10000000);
+      }, 1000000);
     }
     return () => {
       clearTimeout(timer);
