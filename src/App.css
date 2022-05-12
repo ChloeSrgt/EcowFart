@@ -20,3 +20,9 @@
   justify-content: center;
   display: flex;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+}

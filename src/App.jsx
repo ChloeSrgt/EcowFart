@@ -16,13 +16,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-      </header>
       <div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/search/:idProduct" element={<Detail />} />
+        <Route path="/Detail" element={<Detail />} />
       </Routes>
         <button type='button' onClick={() => setCereales(Ble)}> Lin </button>
       </div>

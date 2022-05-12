@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/Header.css";
 import logo from "../assets/logo.png";
@@ -8,8 +9,10 @@ const Header = () => {
     return (
         <header>
         <div className="header">
-          <img className="header-logo" src={logo} alt="logo" />
-          <h1 className="header-title">E'COWFART</h1>
+        <Link
+        to="/"> <img className="header-logo" src={logo} alt="logo" /></Link>
+        <Link
+        to="/"><h1 className="header-title">E'COWFART</h1></Link>
           <img src={mail} alt="picto mail"/>
         </div>
         </header>
