@@ -21,3 +21,7 @@ margin: 20px 0px 8px 32px;
 .header-title {
 color: var(--camel);
 }
+
+.pictomail {
+  width: 4vw;
+}
