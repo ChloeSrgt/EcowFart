@@ -19,8 +19,6 @@ function App() {
       <header className="App-header">
       </header>
       <div>
-        <img alt="logo" src={'src/assets/Logo-rond.png'} />
-        <p>Salut ça farte ?!</p>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
