@@ -1,19 +1,25 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.App {
+  text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+.App-header {
+  background-color: #557329;
+  min-height: 10vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.footer {
+  background-color: #557329;
+  min-height: 10vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
-:root {
-
-  --dark-green: #557329;
-  --light-green: #A8BF56;
-  --camel: #F2B694;
-  --brown: #BF7960;
-  --black: #0D0D0D
-
+.graph-box {
+  justify-content: center;
+  display: flex;
 }
 
 a {
@@ -21,5 +27,3 @@ a {
   color: inherit;
   user-select: none;
 }
-
-
