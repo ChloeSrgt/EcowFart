@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/Header.css";
 import logo from "../assets/logo.png";
-import facebook from "../assets/fb-icon.png";
-import instagram from "../assets/insta-icon.png";
-import mail from "../assets/mail-icon.png";
+import mail from "../assets/picto-contact.png";
+import facebook from "../assets/picto-fb.png";
+import instagram from "../assets/picto-insta.png";
 
 const Header = () => {
     return (
@@ -19,7 +19,7 @@ const Header = () => {
           <img src={facebook} alt="picto facebook" />
           <img src={instagram} alt="picto instagram" />
           <img src={mail} alt="picto mail"/>
-          </div>
+        </div>
         </div>
         </header>
     );

@@ -12,7 +12,7 @@ import {Lin} from './BDD/DataLin';
 import { useState } from 'react';
 
 function App() {
-  const [cereales,setCereales]=useState(Lin);
+  const [ cereales, setCereales ]= useState(Lin);
   return (
     <div className="App">
       <Header />
