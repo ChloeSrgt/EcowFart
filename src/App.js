@@ -1,4 +1,5 @@
 import './App.css';
+import CompteurGaz from './components/CompteurGaz';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       </header>
       <div>
         <img alt="logo" src={'src/assets/Logo-rond.png'} />
+        <CompteurGaz />
         <p>Salut ça farte ?!</p>
       </div>
     </div>

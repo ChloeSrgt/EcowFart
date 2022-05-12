@@ -1,9 +1,8 @@
 /* eslint-disable import/no-unresolved */
 import React, { useState, useEffect } from "react";
-import "./style/countdown.css";
 
 function CountDown() {
-  const [ count, setCount ] = useState("")
+  const [ count, setCount ] = useState(10)
   useEffect(() => {
     let timer = null;
     if (count > 0) {
@@ -17,7 +16,7 @@ function CountDown() {
   });
 
   return (
-    <div className={count <= 3 ? "timeUp" && "pulse" : "countdown"}>
+    <div>
       <h1>{count}</h1>
     </div>
   );
