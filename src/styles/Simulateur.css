@@ -1,0 +1,14 @@
+.SimulateurImage img{
+    width: 8vw;
+    height: 11vh;
+    
+}
+
+.SimulateurImage {
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2rem;
+}
