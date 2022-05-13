@@ -1,5 +1,6 @@
 import Donuts from '../components/DonutsMethane';
 import {Mootral} from '../BDD/DataMootral';
+import React from 'react';
 import { useState } from 'react';
 import { Huile } from "../BDD/DataHuile";
 import { Algue } from "../BDD/DataAlgue";
@@ -17,7 +18,6 @@ import swal from "sweetalert";
 
 export default function Simulateur () {
     const [cereales,setCereales]=useState([]);
-    console.log(Mootral)
     return (
     <div className='Simulateur'>
         <div className='SimulateurImage'>

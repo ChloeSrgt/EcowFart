@@ -5,6 +5,8 @@ import Simulateur from '../components/Simulateur';
 import CompteurGaz from '../components/CompteurGaz';
 import TempsPasse from "../components/TempsPasse";
 import "../styles/compteurGaz.css";
+import FirstHomeContainer from '../components/FirstHomeContainer';
+import SecondHomeContainer from '../components/SecondHomeContainer';
 import ArrowTop from '../components/ArrowTop';
 
 const Home = () => {
@@ -18,6 +20,8 @@ const Home = () => {
         </div>
         </div>
             <Intro />
+            <FirstHomeContainer />
+            <SecondHomeContainer />
             <Simulateur/>
             <ArrowTop />
         </div>
