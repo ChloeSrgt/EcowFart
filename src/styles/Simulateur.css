@@ -36,3 +36,40 @@
     margin: 0 auto;
     padding-bottom: 4rem;
 }
+
+.carteCereale {
+    border-radius: 10%;
+    width: 550px;
+    height: 750px;
+}
+
+.swal-icon img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.swal-title {
+    font-size: 2rem;
+}
+
+.swal-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.swal-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: var(--brown);
+  }
+  .swal-button {
+    background-color: var(--brown);
+    padding: 20px 50px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+  }
