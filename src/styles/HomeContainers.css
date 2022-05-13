@@ -1,0 +1,19 @@
+.home-container {
+    width: 90vw;
+    margin: 0 auto;
+    height: 25vw;
+    display: flex;
+}
+
+.container-img {
+    width: 40vw;
+    height: 25vw;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}

@@ -5,7 +5,9 @@ import Simulateur from '../components/Simulateur';
 import CompteurGaz from '../components/CompteurGaz';
 import TempsPasse from "../components/TempsPasse";
 import "../styles/compteurGaz.css";
-import ArrowBottom from '../components/ArrowTop';
+import FirstHomeContainer from '../components/FirstHomeContainer';
+import SecondHomeContainer from '../components/SecondHomeContainer';
+import ArrowTop from '../components/ArrowTop';
 
 const Home = () => {
     return (
@@ -18,8 +20,10 @@ const Home = () => {
         </div>
         </div>
             <Intro />
+            <FirstHomeContainer />
+            <SecondHomeContainer />
             <Simulateur/>
-            <ArrowBottom />
+            <ArrowTop />
         </div>
         </>
     );
