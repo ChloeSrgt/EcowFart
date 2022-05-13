@@ -26,7 +26,7 @@ export default function TempsPasse() {
 
   return (
     <div>
-      <h1>La quantité de Méthane produite par les vaches durant le temps de navigation : {heures}:{minutes}:{secondes}</h1>
+      <h1>La quantité de Méthane produite par les vaches en France durant le temps de navigation : {heures}:{minutes}:{secondes}</h1>
     </div>
   );
 }
