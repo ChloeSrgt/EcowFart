@@ -1,14 +1,38 @@
 .SimulateurImage img{
-    width: 8vw;
-    height: 11vh;
-    
+    width: 12vw;
+    height: 17vh;
+    border-radius: 50px;
+}
+
+.SimulateurImage button {
+    height: 20vh;
+    width: 13vw;
+    border: none;
+    border-radius: 20px;
+    background-color: inherit;
+    box-shadow: 2px 2px 2px black;;
 }
 
 .SimulateurImage {
     display: flex;
-    width: 30%;
+    justify-content: space-around;
+    gap:4rem;
+    align-items: flex-end;
+    width: 40%;
     flex-wrap: wrap;
-    justify-content: center;
     margin: 0 auto;
-    gap: 2rem;
+}
+
+.graph-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+
+}
+
+.Simulateur {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    padding-bottom: 4rem;
 }
