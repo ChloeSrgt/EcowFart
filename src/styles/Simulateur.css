@@ -4,6 +4,15 @@
     border-radius: 50px;
 }
 
+.SimulateurImage img:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+
 .SimulateurImage button {
     height: 20vh;
     width: 13vw;
@@ -13,14 +22,28 @@
     box-shadow: 2px 2px 2px black;;
 }
 
+.aliment{
+    display: flex;
+    flex-direction: column;
+}
+
+.aliment .textButton{
+margin-top: 2rem;
+height: 4vh;
+}
+
+.textButton:hover {
+    background-color: #BF7960;
+    cursor: pointer;
+    color: azure;
+    }
+
 .SimulateurImage {
     display: flex;
-    justify-content: space-around;
-    gap:4rem;
-    align-items: flex-end;
-    width: 40%;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0 auto;
+    width: 50%;
 }
 
 .graph-box{

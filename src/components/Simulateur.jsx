@@ -21,43 +21,52 @@ export default function Simulateur () {
     return (
     <div className='Simulateur'>
         <div className='SimulateurImage'>
-   <div> 
-     <button type='button' onClick={() => setCereales(Mootral)}> <img src={mootral} alt="mootral"/> </button>
-   </div>
-    <button type='button' onClick={() => swal({
+   <div className='aliment'> 
+     <button type='button' onClick={() => setCereales(Mootral)}> <img id="moot" src={mootral} alt="mootral"/> </button>
+    <button className="textButton" type='button' onClick={() => swal({
       title: "Mootral",
       text: Mootral[0].information,
       icon: mootral,
       className: "carteCereale",
     })}>Mootral</button>
+    </div>
+
+    <div className='aliment'>
         <button type='button' onClick={() => setCereales(Levure)}> <img src={levure} alt="levure"/>  </button>
-        <button type='button' onClick={() => swal({
+        <button className="textButton" type='button' onClick={() => swal({
       title: "Levure",
       text: Levure[0].information,
       icon: levure,
       className: "carteCereale",
     })}>Levure</button>
+    </div>
+    <div className='aliment'>
         <button type='button' onClick={() => setCereales(Algue)}> <img src={algue} alt="algue"/>  </button>
-        <button type='button' onClick={() => swal({
+        <button className="textButton" type='button' onClick={() => swal({
       title: "Algue",
       text: Algue[0].information,
       icon: algue,
       className: "carteCereale",
     })}>Algue</button>
+    </div>
+    <div className='aliment'>
         <button type='button' onClick={() => setCereales(Huile)}> <img src={huile} alt="huile"/>  </button>
-        <button type='button' onClick={() => swal({
+        <button className="textButton" type='button' onClick={() => swal({
       title: "Huile",
       text: Huile[0].information,
       icon: huile,
       className: "carteCereale",
     })}>Huile</button>
+    </div>
+    <div className='aliment'>
         <button type='button' onClick={() => setCereales(Ail)}> <img src={ail} alt="ail"/> </button>
-        <button type='button' onClick={() => swal({
+        <button className="textButton" type='button' onClick={() => swal({
       title: "Ail",
       text: Ail[0].information,
       icon: ail,
       className: "carteCereale",
     })}>Ail</button>
+    </div>
         </div>
 
     <div className="graph-box">
