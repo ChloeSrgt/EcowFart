@@ -3,6 +3,10 @@
     height: 120vh;
 }
 
+.Simulateur-container h2 {
+    color: rgb(55, 54, 54);
+}
+
 .Simulateur-container h1,h2{
     color: var(--brown);
     padding: 2rem;
