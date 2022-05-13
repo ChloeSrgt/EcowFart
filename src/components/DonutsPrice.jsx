@@ -9,7 +9,7 @@ function DonutsPrice({Database}) {
         datasets: [{
           label: "Users Gained",
           data: Database.map((data) => data.prix),
-          backgroundColor: ["brown","red"],}]
+          backgroundColor: ["#BF7960","#F2B694"],}]
         })
 
       useEffect(() => { setUserData({
@@ -17,7 +17,7 @@ function DonutsPrice({Database}) {
         datasets: [{
           label: "Users Gained",
           data: Database.map((data) => data.Prix),
-          backgroundColor: ["brown","red"],}]
+          backgroundColor: ["#BF7960","#F2B694"],}]
         })}, [Database])
       
 
