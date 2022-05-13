@@ -1,0 +1,110 @@
+.Simulateur-container{
+    text-align: center;
+    height: 120vh;
+}
+
+.Simulateur-container h1,h2{
+    color: var(--brown);
+    padding: 2rem;
+}
+
+
+.SimulateurImage img{
+    width: 12vw;
+    height: 17vh;
+    border-radius: 50px;
+}
+
+.SimulateurImage img:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    
+}
+
+
+
+.SimulateurImage button {
+    height: 20vh;
+    width: 13vw;
+    border: none;
+    border-radius: 20px;
+    background-color: inherit;
+    box-shadow: 2px 2px 2px black;;
+}
+
+.aliment{
+    display: flex;
+    flex-direction: column;
+}
+
+.aliment .textButton{
+margin-top: 2rem;
+height: 4vh;
+}
+
+.textButton:hover {
+    background-color: #BF7960;
+    cursor: pointer;
+    color: azure;
+    }
+
+.SimulateurImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.graph-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+
+}
+
+.Simulateur {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.carteCereale {
+    border-radius: 10%;
+    width: 550px;
+    height: 750px;
+}
+
+.swal-icon img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.swal-title {
+    font-size: 2rem;
+}
+
+.swal-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.swal-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: var(--brown);
+  }
+  .swal-button {
+    background-color: var(--brown);
+    padding: 20px 50px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+  }
