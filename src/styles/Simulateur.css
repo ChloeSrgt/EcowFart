@@ -41,10 +41,10 @@
 }
 
 .swal-button:not([disabled]):hover {
-    background-color: #BF7960;
+    background-color: var(--brown);
   }
   .swal-button {
-    background-color: #BF7960;
+    background-color: var(--brown);
     padding: 20px 50px;
     font-size: 1.2rem;
     border-radius: 30px;

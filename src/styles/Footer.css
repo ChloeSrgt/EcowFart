@@ -1,5 +1,5 @@
 footer {
-    background-color: #557329;
+    background-color: var(--dark-green);
     min-height: 6vh;
     display: flex;
     font-size: calc(10px + 2vmin);
