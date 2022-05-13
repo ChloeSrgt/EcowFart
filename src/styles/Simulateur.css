@@ -1,3 +1,13 @@
+.Simulateur-container{
+    text-align: center;
+    height: 100vh;
+}
+
+.Simulateur-container h1{
+    padding: 2rem;
+}
+
+
 .SimulateurImage img{
     width: 12vw;
     height: 17vh;
@@ -9,6 +19,7 @@
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
+    
 }
 
 

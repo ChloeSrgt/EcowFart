@@ -19,6 +19,8 @@ import swal from "sweetalert";
 export default function Simulateur () {
     const [cereales,setCereales]=useState([]);
     return (
+      <div className='Simulateur-container'> 
+      <h1> Changer l'alimentation de vos vaches </h1>
     <div className='Simulateur'>
         <div className='SimulateurImage'>
    <div className='aliment'> 
@@ -80,6 +82,7 @@ export default function Simulateur () {
     <Donuts Database={cereales}/>
       </div>
 
+    </div>
     </div>
     </div>
     )
