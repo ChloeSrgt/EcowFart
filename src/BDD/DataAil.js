@@ -1,3 +1,4 @@
+import ail from "../assets/ail.jpg";
 
 
 export const Ail = [
@@ -14,7 +15,7 @@ export const Ail = [
       Prix: 10.23,
       Nom: "Ail",
       Photo:
-        "https://cdn.pixabay.com/photo/2018/03/19/20/20/wheat-3241114_1280.jpg",
+        {ail},
       PrixText: "Prix en euros/10kg",
       information:
       "Ajoutant de l'ail à leur nourriture pourrait réduire de manière substantielle les émissions de gaz à effet de serre, selon une étude réalisée.Les scientifiques affirment qu'une réduction de 40 % des émissions de méthane produites par les vaches pourrait limiter de manière substantielle le réchauffement climatique. Negatif : point négatif est que l'allicine altérerait le goût du lait et des autres produits laitiers.",

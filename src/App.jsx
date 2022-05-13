@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useParams } from "react-router-dom";
 import React from "react";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Detail" element={<Detail />} />
+        <Route path="/detail/:id" element={<Detail />} />
       </Routes>
   
 <Footer />
