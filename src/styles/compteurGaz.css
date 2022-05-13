@@ -1,5 +1,5 @@
 .compteurGaz {
-    border: solid 1px #557329;
+    border: solid 1px var(--dark-green);
     font-size: 1rem;
     font-weight: 600;
     border-radius: 50%;
@@ -8,12 +8,12 @@
 }
 
 .compteurGaz {
-    box-shadow: 0 0 0 1px #F2B694 inset;
+    box-shadow: 0 0 0 1px var(--camel) inset;
     transition: ease-in 0.7s;
 }
 
 .compteurGaz:hover {
-    box-shadow: 0 300px 0 1px #F2B694 inset;
+    box-shadow: 0 300px 0 1px var(--camel) inset;
     display: block;
 }
 
@@ -33,8 +33,8 @@
 .blocText{
     display: none;
    font-family: 'Roboto Slab', serif;
-   background: #f2b694;
-   color: #557329;
+   background: var(--camel);
+   color: var(--dark-green);
    padding: 7px 10px;
    border-radius: 3px;
    width: 205px;
