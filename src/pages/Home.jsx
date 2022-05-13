@@ -5,7 +5,7 @@ import Simulateur from '../components/Simulateur';
 import CompteurGaz from '../components/CompteurGaz';
 import TempsPasse from "../components/TempsPasse";
 import "../styles/compteurGaz.css";
-import ArrowBottom from '../components/ArrowTop';
+import ArrowTop from '../components/ArrowTop';
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
             <Intro />
             <Simulateur/>
-            <ArrowBottom />
+            <ArrowTop />
         </div>
         </>
     );
