@@ -5,15 +5,22 @@
     display: flex;
 }
 
+.home-container h2 {
+   padding: 3rem;
+}
+
+
+
 .container-img {
-    width: 40vw;
-    height: 25vw;
+    width: 300px;
+    height: 280px;
 }
 
 .text-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }

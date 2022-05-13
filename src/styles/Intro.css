@@ -2,12 +2,16 @@
     font-size: 3rem;
     display: flex;
     justify-content: center;
-    margin: 45px 10px 30px 10px;
+    padding: 2rem;
+    padding-bottom: 1rem;
     color: var(--brown);
   }
+
+  .intro h2{
+    color: rgb(55, 54, 54);
+  }
   
-  .infotext {
-    font-size: 18px;
-    margin: 0px 26px 40px 26px;
+  .intro{
     text-align: center;
+    padding-bottom: 2rem;
   }
