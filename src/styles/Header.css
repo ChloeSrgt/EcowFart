@@ -1,5 +1,6 @@
 header {
     background-color: #557329;
+    height: 10vw;
 }
 
 .header {
@@ -15,7 +16,7 @@ header {
 
 .header-logo {
 width: 9vw;
-margin: 20px 0px 8px 32px;
+margin: 6px 0px 8px 32px;
 }
 
 .header-title {
