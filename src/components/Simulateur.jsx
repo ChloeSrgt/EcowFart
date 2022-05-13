@@ -21,6 +21,7 @@ export default function Simulateur () {
     return (
       <div className='Simulateur-container'> 
       <h1> Changer l'alimentation de vos vaches </h1>
+      <h2> Cliquez sur l'aliment de votre choix, calculez votre budget et diminuez la production de Methane de votre troupeaux </h2>
     <div className='Simulateur'>
         <div className='SimulateurImage'>
    <div className='aliment'> 

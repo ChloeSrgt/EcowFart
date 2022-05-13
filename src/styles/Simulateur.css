@@ -1,9 +1,10 @@
 .Simulateur-container{
     text-align: center;
-    height: 100vh;
+    height: 120vh;
 }
 
-.Simulateur-container h1{
+.Simulateur-container h1,h2{
+    color: var(--brown);
     padding: 2rem;
 }
 
