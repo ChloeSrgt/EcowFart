@@ -1,7 +1,6 @@
 /* eslint-disable import/no-unresolved */
 import React, { useState, useEffect } from "react";
 
-
 export default function CompteurGaz() {
   const [ grammes, setGrammes ] = useState(0)
   const [ kilos, setKilos ] = useState(0)
@@ -15,7 +14,7 @@ export default function CompteurGaz() {
           setKilos(kilos + 1)
           setGrammes(0)
         }
-      }, 1000000);
+      }, 100);
     }
     return () => {
       clearTimeout(timer);
