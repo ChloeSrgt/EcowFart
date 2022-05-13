@@ -7,8 +7,9 @@ import mail from "../assets/picto-contact.png";
 
 const Header = () => {
     return (
-        <header>
-        <div className="header">
+      <div>
+      <header>
+            <div className="header">
         <Link
         to="/"> <img className="header-logo" src={logo} alt="logo" />
         </Link>
@@ -20,6 +21,7 @@ const Header = () => {
           </Link>
         </div>
         </header>
+        </div>
     );
 };
 
