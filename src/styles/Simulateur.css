@@ -1,16 +1,74 @@
+.Simulateur-container{
+    text-align: center;
+    height: 100vh;
+}
+
+.Simulateur-container h1{
+    padding: 2rem;
+}
+
+
 .SimulateurImage img{
-    width: 8vw;
-    height: 11vh;
+    width: 12vw;
+    height: 17vh;
+    border-radius: 50px;
+}
+
+.SimulateurImage img:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
     
 }
 
+
+
+.SimulateurImage button {
+    height: 20vh;
+    width: 13vw;
+    border: none;
+    border-radius: 20px;
+    background-color: inherit;
+    box-shadow: 2px 2px 2px black;;
+}
+
+.aliment{
+    display: flex;
+    flex-direction: column;
+}
+
+.aliment .textButton{
+margin-top: 2rem;
+height: 4vh;
+}
+
+.textButton:hover {
+    background-color: #BF7960;
+    cursor: pointer;
+    color: azure;
+    }
+
 .SimulateurImage {
     display: flex;
-    width: 30%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
-    gap: 2rem;
+    width: 50%;
+}
+
+.graph-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+
+}
+
+.Simulateur {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    padding-bottom: 4rem;
 }
 
 .carteCereale {
