@@ -18,7 +18,6 @@ import swal from "sweetalert";
 
 export default function Simulateur () {
     const [cereales,setCereales]=useState([]);
-    console.log(Mootral)
     return (
     <div className='Simulateur'>
         <div className='SimulateurImage'>
