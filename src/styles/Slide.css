@@ -6,6 +6,7 @@
 
 .containerSlide img {
     height: 424px;
+    border-radius: 80px;
 
 }
 .each-slide > div {

@@ -3,9 +3,12 @@ import "../styles/Intro.css";
 export default function Intro() {
   return (
     <div className="intro">
-      <h1 className="title">VOICI UN TITRE</h1>
-      <p className="infotext">
-      Nec sane haec sola pernicies orientem diversis cladibus adfligebat. Namque et Isauri, quibus est usitatum saepe pacari saepeque inopinis excursibus cuncta miscere, ex latrociniis occultis et raris, alente inpunitate adulescentem in peius audaciam ad bella gravia proruperunt, diu quidem perduelles spiritus inrequietis motibus erigentes, hac tamen indignitate perciti vehementer, ut iactitabant, quod eorum capiti quidam consortes apud Iconium Pisidiae oppidum in amphitheatrali spectaculo feris praedatricibus obiecti sunt praeter morem.
+      <h1 className="title">Pète pas l'environnement</h1>
+      <p className="infotext">L’industrie des bovins de boucherie et des vaches laitières est l’un des 
+      principaux contributeurs aux gaz à effet de serre dans le monde. Le méthane représente environ 
+      la moitié de la quantité totale de gaz à effet de serre émise par ce secteur. 
+      Ce que les vaches mangent a un grand effet sur la quantité de méthane qu’elles produisent. 
+      La digestion de certains types d’aliments produit plus de méthane que la digestion d’autres aliments. 
       </p>
     </div>
   );

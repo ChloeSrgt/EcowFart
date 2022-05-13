@@ -4,4 +4,17 @@ footer {
     display: flex;
     font-size: calc(10px + 2vmin);
     color: white;
+    justify-content: space-around;
   }
+
+  .pictos {
+    display: flex;
+    width: 15vw;
+    justify-content: center;
+    margin-top: 7px;
+    gap: 20px;
+}
+
+.pictos img {
+    width: 2.5vw;
+}

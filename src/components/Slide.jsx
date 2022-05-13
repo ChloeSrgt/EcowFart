@@ -9,7 +9,7 @@ import 'react-slideshow-image/dist/styles.css'
 
 const proprietes = {
     duration: 2500,
-    transitionDuration: 500,
+    transitionDuration: 1500,
     infinite: true,
     indicators: true,
     arrows: true

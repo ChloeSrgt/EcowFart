@@ -1,6 +1,8 @@
 import React from 'react';
 import Slideshow from "../components/Slide";
 import Intro from "../components/Intro";
+import Simulateur from '../components/Simulateur';
+
 import CompteurGaz from '../components/CompteurGaz';
 import TempsPasse from "../components/TempsPasse";
 import "../styles/compteurGaz.css";
@@ -16,6 +18,7 @@ const Home = () => {
         </div>
         </div>
             <Intro />
+            <Simulateur/>
         </div>
         </>
     );
